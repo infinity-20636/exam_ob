@@ -1,0 +1,23 @@
+.wrapper__nav{
+    border-radius: 50px;
+    padding: 25px;
+    max-width: 1280px;
+    height: 100px;
+    background-color:rgba($color: #d36767, $alpha: 0.6);
+    display: flex;
+    justify-content: space-around;
+    &-link{
+        text-align: center;
+        max-width: 300px;
+        background: rgba($color: #000000, $alpha: 0);
+        color: aliceblue;
+        font-weight: 900;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+}
+.active{
+    background-color: #1b0f0f;
+}
+
